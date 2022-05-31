@@ -1,6 +1,11 @@
 .hero {
     background-color: #1f2937;
     display: flex;
+    flex-flow: column nowrap;
+}
+
+.header {
+    display: flex;
     justify-content: space-around;
     align-items: center;
 }
