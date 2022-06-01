@@ -1,17 +1,26 @@
 body {
-    margin: auto;
+    margin: 0;
+}
+
+.alignment{
+    width: 800px;
+    display: flex;
+    flex-flow: column nowrap;
 }
 
 .hero {
     background-color: #1f2937;
     display: flex;
-    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: center;
 }
 
 .header {
+    
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
+    margin-bottom: 100px;
 }
 
 .hero-links {
@@ -56,11 +65,13 @@ a {
 .hero-main {
     width: 100%;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .hero-section {
     font-size: 18px;
+    margin: 10px;
     max-width: 40%;
     color: #e5e7eb;
     display: flex;
@@ -70,9 +81,11 @@ a {
 .hero-text {
     display: flex;
     flex-flow: column;
+    justify-content: center;
 }   
     
 .hero-img {
     max-width: 40%;
     background: grey;
+    display: flex;
 }
