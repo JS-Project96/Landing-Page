@@ -181,3 +181,17 @@ a {
     background-color: #3882f6;
     border-radius: 10px;
 }
+
+.action-main {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+}
+
+.signup {
+    border: 2px solid white;
+    border-radius: 3px;
+    background-color: #3882f6;
+    color: white;
+    font-weight: bold;
+}
