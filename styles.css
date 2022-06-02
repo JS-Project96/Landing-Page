@@ -64,7 +64,6 @@ a {
 }
 
 .hero-main {
-    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -92,7 +91,14 @@ a {
     display: flex;
 }
 
+.information-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .info-header {
+    margin: 30px 0;
     font-size: 36px;
     font-weight: bolder;
     color: #1f2937;
@@ -102,6 +108,32 @@ a {
 }
 
 .empty-image {
-    border: 1px solid #3882f6;
+    border: 3px solid #3882f6;
+    border-radius: 10px;
+    padding: 75px;
+    margin: 0%;
     display: flex;
 }
+
+.info {
+    max-width: 100%;
+    gap: 50px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+.combined {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+}
+
+.image-text {
+    margin-top: 10px;
+    max-width: 200px;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
