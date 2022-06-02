@@ -168,3 +168,16 @@ a {
     align-items: center;
     flex: 1;
 }
+
+.action-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.action-combined {
+    padding: 25px 100px;
+    margin: 50px auto;
+    background-color: #3882f6;
+    border-radius: 10px;
+}
