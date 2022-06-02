@@ -72,7 +72,6 @@ a {
     font-size: 18px;
     max-width: 50%;
     margin-bottom: 50px;
-    margin-right: 20px;
     color: #e5e7eb;
     display: flex;
     flex-flow: row wrap;
@@ -124,6 +123,7 @@ a {
 
 .combined {
     max-width: 20%;
+    margin-bottom: 50px;
     display: flex;
     flex-flow: row wrap;
     justify-content: space-evenly;
@@ -139,6 +139,7 @@ a {
 }
 
 .quote-section {
+    padding: 50px;
     background-color: #e5e7eb;
     display: flex;
     justify-content: center;
@@ -148,9 +149,22 @@ a {
 .quote {
     font-size: 36px;
     color: #1f2937;
-    font-style: italic;
     display: flex;
     justify-content: center;
     align-items: center;
-    max-width: 50%;
+}
+
+.signature {
+    margin: 0 50px;
+    font-weight: bold;
+    display: flex;
+    align-self: flex-end;
+}
+
+.quote-combined {
+    margin: 50px 0;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
 }
