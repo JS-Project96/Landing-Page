@@ -9,6 +9,7 @@ body {
 }
 
 .hero {
+    margin-bottom: 50px;
     background-color: #1f2937;
     display: flex;
     align-items: center;
@@ -90,13 +91,14 @@ a {
 }
 
 .information-section {
+    margin: 50px auto;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
 .info-header {
-    margin: 30px auto;
+    margin: 0 auto;
     font-size: 36px;
     font-weight: bolder;
     color: #1f2937;
@@ -138,6 +140,7 @@ a {
 }
 
 .quote-section {
+    margin: 50px auto;
     background-color: #e5e7eb;
     display: flex;
     justify-content: center;
@@ -170,6 +173,7 @@ a {
 }
 
 .action-section{
+    margin: 50px auto;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -222,7 +226,7 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 10%;
+    padding: 50px;
     margin-top: 50px;
 }
 
